@@ -7,6 +7,7 @@ body {
     color: rgb(28, 3, 3);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 94vh;
 }
 
 .contenedor1 {
@@ -72,10 +73,10 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     height: 2rem;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .icono {
-    color: rgb(0, 0, 0);
+    color: rgb(194, 148, 32);
     cursor: pointer;
 }
