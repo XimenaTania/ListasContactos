@@ -7,6 +7,7 @@ body {
     color: rgb(28, 3, 3);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 94vh;
 }
 
 .contenedor1 {
@@ -20,6 +21,8 @@ body {
 h2 {
     text-align: center;
     font-size: 2.3rem;
+    color: rgb(28, 3, 3);
+    text-shadow: rgb(228, 221, 221) 0.1em 0.1em 0.2em;
 }
 
 .formularioDeDatos {
@@ -72,10 +75,19 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     height: 2rem;
-    font-size: 90%;
+    font-size: 100%;
+    color: rgb(168, 137, 35);
+    text-shadow: rgb(43, 4, 4) 0.1em 0.1em 0.2em;
 }
 
 .icono {
-    color: rgb(0, 0, 0);
+    color: rgb(202, 179, 164);
+    text-shadow: black 0.1em 0.1em 0.2em;
     cursor: pointer;
+    padding: 20px;
+}
+
+.inicial {
+    color: rgb(202, 179, 164);
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
