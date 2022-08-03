@@ -27,7 +27,7 @@ const crearContacto = (parentNode, contacto, guarda) => {
     apellidoContacto.innerHTML = contacto.apellido
     numeroContacto.innerHTML = contacto.numero
     correoContacto.innerHTML = contacto.correo
-    ubicacionContacto.innerHTML = contacto.Ubicacion
+    ubicacionContacto.innerHTML = contacto.ubicacion
     direccionContacto.innerHTML = contacto.direccion
     ciudadContacto.innerHTML = contacto.ciudad
     iconoBorrar.innerHTML = 'delete'
