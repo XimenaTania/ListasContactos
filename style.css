@@ -1,73 +1,75 @@
-html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 body {
-    background-image: url(https://cdn.shopify.com/s/files/1/2098/0315/files/tipos-escritorio-satisfacer-distintas-necesidades.jpg?v=1620914512);
-    color: rgb(28, 3, 3);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 94vh;
-}
-
-.contenedor1 {
-    height: 50%;
-    width: 70%;
-    margin: 4rem auto;
-    display: flex;
-    flex-direction: row;
+    background-color: #E85535;
 }
 
 h2 {
+    color: white;
+    text-shadow: rgb(136, 22, 22) 0.1em 0.1em 0.2em;
+    font-family: 'Mouse Memoirs', sans-serif;
     text-align: center;
-    font-size: 2.3rem;
-    color: rgb(28, 3, 3);
-    text-shadow: rgb(228, 221, 221) 0.1em 0.1em 0.2em;
+    font-size: 50px;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 70%;
+    margin: 1rem auto;
 }
 
 .formularioDeDatos {
-    width: 50%;
-    margin: 1rem auto;
-    background: rgba(5, 7, 12, 0.40);
     margin: auto;
-    padding: 20px;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .formularioDeDatos input {
-    margin: 1rem 0rem;
-    line-height: 3rem;
-    background: none;
+    background: rgba(245, 151, 111, 0.4);
+    padding: 15px;
     outline: 0;
     border: 0;
+    line-height: 10px;
+    margin: 10px;
     color: white;
+    border-radius: 20px;
 }
 
 .formularioDeDatos input:active {
-    border-bottom: 1px solid rgb(223, 217, 217);
+    border-bottom: 1px solid rgb(221, 212, 212);
 }
 
 .formularioDeDatos input:focus {
-    border-bottom: 1px solid rgb(215, 207, 207);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .formularioDeDatos button {
     margin: 1rem 0rem;
-    background-color: rgb(34, 9, 9);
+    background: rgba(240, 122, 67, 0.4);
     border: 0;
     outline: 0;
     height: 3rem;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    text-shadow: rgb(136, 22, 22) 0.1em 0.1em 0.2em;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(15, 13, 13) 0.1em 0.1em 0.2em;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
 }
 
 .listadoTareas {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     padding-left: 20px;
+    font-family: 'Mouse Memoirs', sans-serif;
 }
 
 .tarea {
@@ -75,19 +77,21 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     height: 2rem;
-    font-size: 100%;
-    color: rgb(168, 137, 35);
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 17px;
+    color: rgb(250, 249, 245);
     text-shadow: rgb(43, 4, 4) 0.1em 0.1em 0.2em;
+    align-items: stretch;
 }
 
 .icono {
-    color: rgb(202, 179, 164);
+    color: rgb(241, 141, 92);
     text-shadow: black 0.1em 0.1em 0.2em;
     cursor: pointer;
     padding: 20px;
 }
 
 .inicial {
-    color: rgb(202, 179, 164);
+    color: rgb(241, 141, 92);
     text-shadow: black 0.1em 0.1em 0.2em;
 }
