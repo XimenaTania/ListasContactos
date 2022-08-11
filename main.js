@@ -27,4 +27,4 @@ botonAgregar.onclick = () => {
     }
     guardarContacto(guarda, contacto);
 }
-cargarContacto(guarda, listadoTareas)
+cargarContacto(guarda, listadoTareas);
